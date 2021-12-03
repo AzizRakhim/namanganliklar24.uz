@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "Rubik", "Arial", sans-serif;
+}
+
+.header-hr{
+    width: 1440px;
+    background-color: #295093;
+}
+
+.header-logo{
+    width: 306px;
+    height: 33px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.header-ul-currency{
+    list-style: none;
+}
+
+.header-button-search{
+    width: 38.1px;
+}
+
+.header-link-lang{
+    width: 64.76px;
+    text-decoration: none;
+}
+
+.header-button-telegram{
+    width: 146px;
+    background-color: #1E96C8;
+    color: #FFFFFF;
+}
+
+.navigation-links{
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 23px;
+    width: 1151px;
+    list-style: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #515151;
+    
+}
+
+.main-ad{
+    width: 1200px;
+    border: 1px solid #E0E0E0;
+}
+
+.coronavirus-statistics{
+    background-color: #F6F6F9;
+}
+
+.main-list{
+    list-style: none;
+}
+
+.coronavirus-link{
+    text-decoration: none;
+}
+
+.infected{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #DB0000;
+
+    width: 161px;
+}
+
+.infected-paragraph{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+
+    width: 161px;
+}
+
+.cured{
+    color: #05B135;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.cured-paragraph{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+
+    width: 161px;
+}
+
+.died{
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.died-paragraph{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+
+    width: 161px;
+}
+
+.main-list-news{
+    list-style: none;
+}
+
+.list-news-item{
+    text-decoration: none;
+}
+
+.main-div-subscribe{
+    background-color: rgba(239, 186, 84, 0.18);   
+}
+
+.div-button-subscribe{
+    background-color: #FE5C28;
+    color: #FFFFFF;
+}
+
+.section-latest-news{
+    list-style: none;
+}
+
+.latest-news-item{
+    text-decoration: none;
+}
+
+.more-news-button{
+    background-color: #295093;
+    color: #FFFFFF;
+}
+
+.popular-news-section{
+    background-color: #F6F6F9;
+}
+
+.popular-news-link{
+    text-decoration: none;
+}
+
+.app-download-div{
+    background-color: #F6F6F9;
+}
+
+.appp-download-paragraph{
+    color: #295093;
+}
+
+.footer-background{
+    background-color: #295093;
+}
+
+.footer-paragraph{
+    color: #FFFFFF;
+}
+
+.footer-hr{
+    width: 1200px;
+    background-color: #133C82;
+}
+
+.about-us-headline{
+    color: #FFFFFF;
+}
+
+.about-us{
+    color: #FFFFFF;
+}
+
+.navigation-footer-list{
+    list-style: none;
+}
+
+.footer-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
