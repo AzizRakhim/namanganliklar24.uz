@@ -16,6 +16,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
     font-family: "Rubik", "Arial", sans-serif;
 }
@@ -27,7 +36,6 @@ body{
 
 .header-logo{
     width: 306px;
-    height: 33px;
     font-weight: 700;
     font-style: normal;
     font-size: 28px;
@@ -36,21 +44,53 @@ body{
 
 .header-ul-currency{
     list-style: none;
+    width: 258px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.header-currency-sign{
+    color: #285193;
 }
 
 .header-button-search{
     width: 38.1px;
+    color: #535353;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
 }
 
 .header-link-lang{
-    width: 64.76px;
+    width: 21px;
     text-decoration: none;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
 }
 
 .header-button-telegram{
     width: 146px;
-    background-color: #1E96C8;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+}
+
+.telegram-image{
+    width: 20px;
+}
+
+.telegram-logo-span{
+    width: 97px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.96px;
     color: #FFFFFF;
+
 }
 
 .navigation-links{
@@ -59,8 +99,7 @@ body{
     font-style: normal;
     line-height: 23px;
     width: 1151px;
-    list-style: none;
-    
+    list-style: none;   
 }
 
 .link{
@@ -76,21 +115,31 @@ body{
 
 .coronavirus-statistics{
     background-color: #F6F6F9;
+    width: 1200px;
+}
+
+.coronavirus-img{
+    width: 43px;
+}
+
+.coronavirus-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23.7px;
+    color: black;
 }
 
 .main-list{
     list-style: none;
 }
 
-.coronavirus-link{
-    text-decoration: none;
-}
-
 .infected{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 21 px;
 
     color: #DB0000;
 
@@ -154,13 +203,118 @@ body{
     text-decoration: none;
 }
 
+.list-news-img{
+    width: 386px;
+}
+
+.list-news-img-big{
+    width: 388px;
+}
+
+.list-news-title{
+    width: 380px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+}
+
+.list-news-quarantine{
+    width: 370px;
+}
+
+.list-news-coast{
+    width: 291px;
+}
+
+.list-news-sir{
+    width: 320px;
+}
+
+.list-news-ambulance{
+    width: 333px;
+}
+
+.list-news-soldier{
+    width: 281px;
+}
+
+.time{
+    width: 125px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+
 .main-div-subscribe{
-    background-color: rgba(239, 186, 84, 0.18);   
+    background-color: rgba(239, 186, 84, 0.18);
+    width: 1200px;   
+}
+
+.bell-icon{
+    width: 31px;
+}
+
+.subscribe-div{
+    width: 610px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
 }
 
 .div-button-subscribe{
+    width: 264px;
     background-color: #FE5C28;
     color: #FFFFFF;
+}
+
+.subscribe-span{
+    width: 241px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.latest-news-title{
+    width: 198px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+}
+
+.latest-news-item-title{
+    width: 434px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.mirziyoyev{
+    width: 507px;
+}
+
+.bus{
+    width: 523px;
+}
+
+.latest-news-paragraph{
+    width: 512px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
 }
 
 .section-latest-news{
@@ -171,13 +325,73 @@ body{
     text-decoration: none;
 }
 
+.data-img{
+    width: 18px;
+
+}
+
+.latest-news-time{
+    width: 512px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
 .more-news-button{
+    width: 211px;
     background-color: #295093;
     color: #FFFFFF;
 }
 
+.more-news-span{
+    width: 148px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+
 .popular-news-section{
+    width: 386px;
     background-color: #F6F6F9;
+}
+
+.popular-news-title{
+    width: 280px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+}
+
+.popular-news-item-title{
+    width: 347px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.popular-news-line{
+    width: 346px;
+    background-color: #E4E4E4;
+}
+
+.popular-news-time{
+    width: 117px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.ucell{
+    width: 386px;
 }
 
 .popular-news-link{
@@ -185,19 +399,74 @@ body{
 }
 
 .app-download-div{
+    width: 1200px;
     background-color: #F6F6F9;
 }
 
-.appp-download-paragraph{
+.phone-class{
+    width: 236px;
+}
+
+.app-download-paragraph{
+    width: 526px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
     color: #295093;
 }
 
+.app-download-body{
+    width: 515px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.google-play{
+    width: 162.71px;
+}
+
+.app-store{
+    width: 162px;
+}
+
 .footer-background{
+    width: 1440px;
     background-color: #295093;
 }
 
+.footer-logo{
+    width: 173px;
+}
+
 .footer-paragraph{
+    width: 659px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
     color: #FFFFFF;
+}
+
+.footer-telegram{
+    width: 18px;
+}
+
+.footer-subscribe-button{
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.subscribe-footer-text{
+    width: 88px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
 }
 
 .footer-hr{
@@ -205,12 +474,17 @@ body{
     background-color: #133C82;
 }
 
-.about-us-headline{
+.footer-div{
+    width: 365px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
     color: #FFFFFF;
 }
 
 .about-us{
-    color: #FFFFFF;
+    font-weight: normal;
 }
 
 .navigation-footer-list{
@@ -220,4 +494,8 @@ body{
 .footer-link{
     color: #FFFFFF;
     text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
